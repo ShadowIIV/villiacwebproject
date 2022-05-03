@@ -97,7 +97,7 @@ body{
 	text-align: center;
 	padding: 10px 30px 10px 30px;
 	border: 1px solid white;
-	box-shadow: 2px 2px 5px #000066;
+	box-shadow: 2px 2px 5px blue;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
