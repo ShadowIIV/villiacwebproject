@@ -97,10 +97,14 @@ body{
 	text-align: center;
 	padding: 10px 30px 10px 30px;
 	border: 1px solid white;
+	box-shadow: 2px 2px 5px #000066;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
 }
 .Clickable_Button1 input[type="button"]:hover{
 	background-color: grey;
 	border: solid black;
+	transition: 0.8s;
 }
 .Blank_Placeholder{
 	float: left;
