@@ -7,6 +7,7 @@ body{
 	margin: 0 auto;
 	width: 100%;
 	font-family: 'Poppins', sans-serif;
+	
 }
 
 .contentcontainer{
@@ -14,11 +15,19 @@ body{
 	height: auto;
 } 
 
+a{
+	text-decoration: none;
+}
+
+
 .header{
 	height: 80px;
 	width: 100%;
 	margin-bottom: -21px;
+	box-shadow: 1px 25px 7px grey;
 	background-color: white;
+	
+	
 }
 .logo img{
 	float: left;
@@ -33,6 +42,7 @@ body{
 	width: 83.7%;
 	height: 80px;
 	background-color: ;
+	
 } 
 
 .navigation{
@@ -43,6 +53,8 @@ body{
 	font-size: 16px;
 	margin-top: 15px;
 	margin-right: 10px;
+	
+	
 }
 .navigation ul li{
 	float: left;
@@ -352,6 +364,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center ;
+	font-family: Roboto;
 }
 .FAQ_Section_box{
 	float:left;
@@ -364,6 +377,10 @@ body{
 	color: black;
 	opacity:0.8;
 	padding: 40px;
+}
+
+.faqli{
+	list-style: none;
 }
 
 
@@ -379,3 +396,4 @@ body{
 	padding: 20px;
 	clear: both;
 }
+
