@@ -179,15 +179,7 @@ a{
 	padding: 40px;
 }
 
-.Products_and_Services_Audio_container{
-	float: left;
-	width: 100%;
-	height: auto;
-	background-color: white;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-.Products_and_Services_Audio_container p{
+.Audio_Para{
 	float: left;
 	text-align: center;
 	color: black;
@@ -199,6 +191,7 @@ Products_and_Services_Audio{
 	margin-top: 10px;
 	height: 45px;
 }
+
 
 .Menu_container{
 	float: left;
