@@ -178,6 +178,7 @@ a{
 	opacity:0.8;
 	padding: 40px;
 }
+
 .Products_and_Services_Audio_container{
 	float: left;
 	width: 100%;
@@ -185,8 +186,6 @@ a{
 	background-color: white;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-top: 4px double #F7D677;
-	border-bottom: 4px double #F7D677;
 }
 .Products_and_Services_Audio_container p{
 	float: left;
@@ -194,7 +193,7 @@ a{
 	color: black;
 	font-size: 20px;
 }
-audio{
+Products_and_Services_Audio{
 	width: 30%;
 	margin-left: 15px;
 	margin-top: 10px;
