@@ -246,6 +246,15 @@ a{
 	background-color: white;
 }
 
+/* .imgstatic{
+	position: absolute;
+	background: white;
+}
+
+.imgstatic:hover{
+	opacity: 0;
+} */
+
 
 /* This is for the Customer Registration Page!!! */
 
@@ -350,6 +359,16 @@ a{
 	color: black;
 	opacity:0.8;
 	padding: 40px;
+}
+
+.covid19font{
+	 font-family: 'Lato', sans-serif;
+	 line-height: 200%;
+}
+
+.covid19list{
+	list-style: square;
+	list-style-position: inside;
 }
 
 /*This is for the Faq Page!!! */
