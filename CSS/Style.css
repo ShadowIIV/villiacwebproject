@@ -165,6 +165,7 @@ a{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	
 }
 .Products_and_Services_Section1_box{
 	float:left;
@@ -177,13 +178,17 @@ a{
 	color: black;
 	opacity:0.8;
 	padding: 40px;
+
 }
 
-.Menu_container{
+.Menu_container, .Breakfast_Heading, .Lunch_Heading, .Dinner_Heading, .Dessert_Heading, .Drinks_Heading{
 	float: left;
 	width: 100%;
 	height: auto;
 	background: white;
+	color: #D9D0B4;
+	font-weight: 1200;
+	background-image: url('https://i.pinimg.com/originals/98/c8/dd/98c8ddb18b1311c90f9e56e08ad7358d.jpg');
 }
 .Breakfast_Heading{
 	float: left;
@@ -236,15 +241,27 @@ a{
 	background-position: center;
 }
 .menu_box_content{
-	width: 95.5%;
+	width: 94%;
 	height: auto;
 	margin-top: 215px;
 	padding: 3px 6px 3px 6px;
-	font-size: 14px;
-	text-align: left;
-	border: 3px solid #F7D677;
-	background-color: white;
+	font-size: 17px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	border: 3px outset #FADFCA;
+	background-color: #ff355e;
+	color: white;
 }
+
+.menu_box_content:hover{
+	transition: 0.55s;
+	background: transparent linear-gradient(to bottom right, rgba(164,0,0,.7) 25%, rgba(227,2,62,.43) 61%, rgba(49,128,135,.19) 120%);
+
+}
+
+
+
+
 
 /* .imgstatic{
 	position: absolute;
