@@ -472,6 +472,34 @@ a{
 	width: 20%;
 	height: 250px;
 }
+
+
+
+
+
+.footer_Nav{
+
+}
+.footer_Nav ul li{
+	float: left;
+	text-align: center;
+	list-style-type: none;
+ }
+.footer_Nav ul li a{
+	text-decoration: none;
+	color: pink;	
+}
+
+
+
+
+
+
+
+
+
+
+
 .footer_section_2{
 	float: left;
 	width: 20%;
