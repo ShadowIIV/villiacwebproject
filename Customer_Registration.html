@@ -10,7 +10,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
 
 </head>
-
 <body id="body">
 	<div class= "container">
 		<div class= "header">
@@ -40,7 +39,33 @@
 				</div>
 		</div>
 		<div class= "Blank_Placeholder">
-			<h1> Add/ Continue Content </h1>
+			<form name = "myform" method = "post" action="reg.pnp" onsubmit='return form_validation()'>
+			<ul>
+			<li><label for="fnameid">First Name:</label></li>
+			<li><input type="text" name="fname" id="txtfnameid" size="12" /></li>
+			<li><label for="lnameid">Last Name:</label></li>
+			<li><input type="text" name="lname" id="txtlnameid" size="12" /></li>
+			<li><input type="radio" name="male" value="male"/><span>Male</span></li>
+			<li><input type="radio" name="female" value="female"/><span>Female</span></li>
+			<li><label for="emailid">Email:</label></li>
+			<li><input type="text" name="email" id="txtfemailid" size="12" /></li>
+			<li><label for="addressid">Address:</label></li>
+			<li><input type="text" name="address" id="txtaddressid" size="12" /></li>
+			<li><label for="contactid">Contact Number:</label></li>
+			<li><input type="text" name="contact" id="txtcontactid" size="12" /></li>
+			<li><label for="branchid">Branches</label></li>
+			<li><select name="ddlbranch" size="1" multiple="yes">
+			<option value="N/A">Select Branch(es)</option>
+			<option value="SAN">Santa Cruz Branch</option>
+			<option value="MON">Montego Bay Branch</option>
+			<option value="OLD">Old Harbour Branch</option>
+			<option value="MAY">May Pen Branch</option>
+			<option value="OCH">Ocho Rios Branch</option>
+			</select></li>
+			</ul>
+			<input type='submit' value='Submit' name='btnsubmit'/>
+			<input type="reset" name="btnreset" value="Reset"/>
+			</form>
 		</div>
 
 	<div class= "footer"> &copy College and ID Number </div>
@@ -52,3 +77,7 @@
 <!--   
 <a href= "https://www.freelogodesign.org/share/ecdf5310d8d1498caa031f91f5c9d2fb"> <img alt= "imgages/banner_logo.png" width= "150" height="70"> </a>
 -->
+
+
+
+
