@@ -484,7 +484,7 @@ a{
 .footer_Nav ul li{
 	text-align: center;
 	list-style-type: none;
-	padding-left: 0;
+	padding-left: -15px;
  }
 .footer_Nav ul li a{
 	text-decoration: none;
