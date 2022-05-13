@@ -472,6 +472,14 @@ a{
 	width: 20%;
 	height: 250px;
 }
+.Nav_logo img{
+	float: left;
+	width: 160px;
+	height: 80px;
+	margin-left: auto;
+	text-indent: -9999999999999999px;
+}
+
 .footer_section_2{
 	float: left;
 	width: 20%;
