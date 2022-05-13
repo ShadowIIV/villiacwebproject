@@ -480,26 +480,11 @@ a{
 .footer_section_2 h1{
 	text-decoration: underline;
  }
-
-
-
 .footer_Nav ul li{
 	list-style-type: none;
  }
 .footer_Nav ul li a{
 	color: pink;	
-}
-.footer_Nav ul li::after{
-	content:'';
-	width: 0%;
-	height: 2px;
-	background-color: yellow;
-	display: block;
-	margin: auto; 
-	transition: 0.5s;
-}
-.footer_Nav ul li:hover::after{
-	width: 100%;
 }
 
 
