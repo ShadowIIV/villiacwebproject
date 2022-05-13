@@ -476,7 +476,21 @@ a{
 	float: left;
 	width: 20%;
 	height: 250px;
+	text-decoration: underline;
 }
+
+
+.footer_Nav ul li{
+	text-align: center;
+	list-style-type: none;
+ }
+.footer_Nav ul li a{
+	color: yellow;	
+}
+
+
+
+
 
 .footer_section_3{
 	float: left;
