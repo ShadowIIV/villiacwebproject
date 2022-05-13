@@ -481,6 +481,8 @@ a{
 
 
 .footer_Nav ul li{
+	margin-left:-10px ;
+	text-decoration: none;
 	text-align: center;
 	list-style-type: none;
  }
