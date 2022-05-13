@@ -475,19 +475,39 @@ a{
 
 
 
-
-
 .footer_Nav{
-
+	float: right;
+	width: 900px;
+	border: 1px solid none;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-right: 10px;
+	
+	
 }
 .footer_Nav ul li{
 	float: left;
+	margin-right: 18px;
+	margin-bottom: 8px;
 	text-align: center;
 	list-style-type: none;
  }
 .footer_Nav ul li a{
 	text-decoration: none;
 	color: pink;	
+}
+.footer_Nav ul li::after{
+	content:'';
+	width: 0%;
+	height: 2px;
+	background-color: yellow;
+	display: block;
+	margin: auto; 
+	transition: 0.5s;
+}
+.footer_Nav ul li:hover::after{
+	width: 100%;
 }
 
 
