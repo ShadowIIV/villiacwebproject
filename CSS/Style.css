@@ -480,12 +480,12 @@ a{
 }
 
 
-.footer_section_2 ul li{
+.footer_Nav ul li{
 	text-align: center;
 	list-style-type: none;
  }
-.footer_section_2 ul li a{
-	color: yellow;	
+.footer_Nav ul li a{
+	color: green;	
 }
 
 
