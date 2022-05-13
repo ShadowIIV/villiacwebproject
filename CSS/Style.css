@@ -460,12 +460,12 @@ a{
 	text-align: center;
 	font-size: 17px;
 	padding: 20px;
-
+	margin-top: 10px;
 
 	background: url(../Images/Black_footer.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	opacity:0.8;
+	opacity:0.1;
 	box-shadow: 1px 5px 7px grey;
 }
