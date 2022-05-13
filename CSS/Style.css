@@ -453,21 +453,19 @@ a{
 
 /* This is the Footer */
 /*.footer{
+	clear: both;
+	height: 500px;
 	background-color: #59594A;
 	color: white;
 	text-align: center;
 	font-size: 17px;
 	padding: 20px;
-	clear: both;
-	box-shadow: 1px 5px 7px grey;
-} */
-.footer{
-	text-align: center;
-	font-size: 17px;
-	background-color: #59594A;
-	color: white;
-	opacity:0.8;
-	padding: 20px;
-	clear: both;
+
+
+	background: url(../Images/Black_footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity:0.3;
 	box-shadow: 1px 5px 7px grey;
 }
