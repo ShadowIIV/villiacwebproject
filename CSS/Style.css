@@ -454,8 +454,8 @@ a{
 /* This is the Footer */
 .footer{
 	clear: both;
-	height: 100px;
-	color: black;
+	height: 180px;
+	color: grey;
 	text-align: center;
 	font-size: 17px;
 	padding: 20px;
