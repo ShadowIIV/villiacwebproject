@@ -472,29 +472,21 @@ a{
 	width: 20%;
 	height: 250px;
 }
-
-
-
-.footer_Nav{
-	float: right;
-	width: 900px;
-	border: 1px solid none;
-	text-transform: uppercase;
-	font-size: 16px;
-	margin-top: 15px;
-	margin-right: 10px;
-	
-	
-}
-.footer_Nav ul li{
+.footer_section_2{
 	float: left;
-	margin-right: 18px;
-	margin-bottom: 8px;
-	text-align: center;
+	width: 20%;
+	height: 250px;
+}
+.footer_section_2 h1{
+	text-decoration: underline;
+ }
+
+
+
+.footer_Nav ul li{
 	list-style-type: none;
  }
 .footer_Nav ul li a{
-	text-decoration: none;
 	color: pink;	
 }
 .footer_Nav ul li::after{
@@ -520,11 +512,7 @@ a{
 
 
 
-.footer_section_2{
-	float: left;
-	width: 20%;
-	height: 250px;
-}
+
 .footer_section_3{
 	float: left;
 	width: 20%;
