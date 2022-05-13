@@ -38,15 +38,20 @@
 					<p> Our company this and that and this and that and this and that.  </p>
 				</div>
 		</div>
-		<div class= "Blank_Placeholder">
-			<form name = "myform" method = "post" action="reg.pnp" onsubmit='return form_validation()'>
+		<div class= "Blank_Placeholdercustomer">
+		<fieldset>
+			<legend class="reglegend">Registration</legend>
+			<form name = "myform" method = "post" onsubmit='return form_validation()'>
 			<ul>
 			<li><label for="fnameid">First Name:</label></li>
-			<li><input type="text" name="fname" id="txtfnameid" size="12" /></li>
+			<li><input type="text" name="fname" id="txtfnameid" size="15" /></li>
 			<li><label for="lnameid">Last Name:</label></li>
-			<li><input type="text" name="lname" id="txtlnameid" size="12" /></li>
-			<li><input type="radio" name="male" value="male"/><span>Male</span></li>
-			<li><input type="radio" name="female" value="female"/><span>Female</span></li>
+			<li><input type="text" name="lname" id="txtlnameid" size="15" /></li>
+			<li><label for="gender">Gender</label></li>
+			<ol>
+			<li><input type="radio" name="gender" value="male"/>Male</input></li>
+			<li><input type="radio" name="gender" value="female"/>Female</input></li>
+			</ol>
 			<li><label for="emailid">Email:</label></li>
 			<li><input type="text" name="email" id="txtfemailid" size="12" /></li>
 			<li><label for="addressid">Address:</label></li>
@@ -63,6 +68,7 @@
 			<option value="OCH">Ocho Rios Branch</option>
 			</select></li>
 			</ul>
+			</fieldset>
 			<input type='submit' value='Submit' name='btnsubmit'/>
 			<input type="reset" name="btnreset" value="Reset"/>
 			</form>
