@@ -1,4 +1,4 @@
-function bgm() {
+function bgm {
   document.getElementById('bgm()').volume = 0.2;
   const audio = document.getElementById('bgm()');
   const playlist = ['Audio/jazzy-abstract-beat.mp3', 'Audio/Jazzy_Music1.mp3'];

@@ -19,6 +19,18 @@ a{
 	text-decoration: none;
 }
 
+.homepageh1{
+	font-family: 'Cinzel', serif;
+	font-size: 45px;
+	 font-weight: 300;
+}
+
+
+.homepgp{
+    font-family: 'Lobster Two', cursive;
+	font-size: 17px;
+	font-weight: 400;
+}
 
 .header{
 	height: 80px;
@@ -31,7 +43,7 @@ a{
 }
 .logo img{
 	float: left;
-	width: 165px;
+	width: 160px;
 	height: 80px;
 	margin-left: auto;
 	text-indent: -9999999999999999px;
@@ -378,14 +390,31 @@ a{
 	padding: 40px;
 }
 
-.covid19font{
-	 font-family: 'Lato', sans-serif;
-	 line-height: 200%;
-}
 
 .covid19list{
 	list-style: square;
 	list-style-position: inside;
+	font-size: 18px;
+}
+
+.covid19para{
+	font-family: 'Special Elite', cursive;
+	padding-top: 10px;
+	font-size: 15px;
+	line-height: 2;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.Blank_Placeholder{
+	font-family: 'Special Elite', cursive;
+	background-image: url('https://cdn.wallpapersafari.com/82/77/CZWfcg.jpg');
+	background-size: cover;
+	color:  #e5e7e9;
+	font-size: 20px;
+}
+
+.covidinfo{
 }
 
 /*This is for the Faq Page!!! */
@@ -418,7 +447,6 @@ a{
 .faqli{
 	list-style: none;
 }
-
 
 
 
