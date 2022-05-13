@@ -466,3 +466,31 @@ a{
 	background-position: center;
 	box-shadow: 1px 5px 7px grey;
 }
+
+.footer_section_1{
+	float: left;
+	width: 20%;
+	height: 250px;
+}
+.footer_section_2{
+	float: left;
+	width: 20%;
+	height: 250px;
+}
+.footer_section_3{
+	float: left;
+	width: 20%;
+	height: 250px;
+}
+.footer_section_4{
+	float: left;
+	width: 20%;
+	height: 250px;
+}
+.footer_section_5{
+	float: left;
+	width: 20%;
+	height: 250px;
+}
+
+
