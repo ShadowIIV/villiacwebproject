@@ -461,6 +461,55 @@ a{
 	opacity:0.8;
 	padding: 40px;
 }
+.Keep_In_Touch_container{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: white;
+}
+img{
+	float:left;
+	width: 30px;
+	height: 30px;
+}
+.Keep_In_Touch_Address h2 h4{
+	float:left;
+	text-align: center;
+	color: gold;
+}
+
+.ContactUsPage_container{
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: offwhite;
+}
+form{
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 70%;
+	height: 300px;
+	margin-bottom: 20px;
+	border: 4px double gold;
+}
+form ul li{
+	list-style-type: none;
+}
+form h1{
+	text-align:center;
+}
+.input_field{
+	margin-left:80px;
+}
+.input_field input{
+	width: 250px;
+}
+.SendButton{
+	width: 450px;
+	height: 4px;
+	text-align: center;
+}
 
 /*This is for the Covid-19 Page!!! */
 
