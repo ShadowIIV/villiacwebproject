@@ -388,15 +388,11 @@ a{
 .Mission_Section p{
 	font-size: 20px;
 }
-.AboutUs_content_image2{
+
+.AboutUs_content_image2 img{
 	float: left;
 	width: 48%;
 	height: 430px ;
-	
-	background: url(../Images/breakfast1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 .Our_Team_Section{
