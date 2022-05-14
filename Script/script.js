@@ -17,3 +17,26 @@ function bgm {
 }
 
 
+function Contactjs(){
+  var name = document.getElementById("Inputname").value;
+  var Email = document.getElementById("InputEmail").value;
+  var number = document.getElementById("Inputnumber").value;
+  var NameMinLength = 4;
+  var NameMaxLength = 12;
+  
+  var text;
+  if(name.length < NameMinLength || name.length > NameMaxLength ) {
+	alert("Please Enter Name Between 4 and 12 Characters!");
+	return false;
+}
+  if(Email.length < 3){
+    alert("Address Should Not Be Blank Or Less Than 3 Characters!");
+    return false;
+  }
+  if(isNaN(number) || number.length  <1){
+    alert("Please Enter valid Phone Number!");
+    return false;
+  }
+  alert("Form Submitted Successfully!");
+  return true;
+}
