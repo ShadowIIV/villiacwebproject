@@ -400,41 +400,7 @@ a{
 	color: black;
 	padding:17px;
 }
-.Our_Team_Section{
-	float: left;
-	background-color: white;
-	width: 98%;
-	height: auto;
-	text-align:center;
-	font-size:20px;
-	color: black;
-	padding:17px;
-}
-.Our_Team_Section_Heading{
-	font-size: 40px;
-	color: black;
-}
-.Our_Team_Section_Heading span{
-	font-style: italic;
-	font-size: 30px;
-}
-.Profiles{
-	display: flex;
-	justify-content: space-around;
-	margin: 20px 80px;
-}
-.Profile{
-	flex-basis: 260px;
-}
-.Profile img{
-	width: 300px;
-	height: 260px;
-	border-radius: 50%;
-	cursor: pointer;
-}
-.name{
-	font-size: 27px;
-}
+
 
 
 /*This is for the Contact Page!!! */
