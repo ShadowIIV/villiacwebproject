@@ -375,9 +375,9 @@ a{
 }
 .Mission_Section{
 	float: left;
-	background-color: pink;
-	width: 98%;
-	height: auto;
+	background-color: white;
+	width: 49%;
+	height: 396px;
 	text-align:center;
 	color: black;
 	padding:17px;
@@ -388,30 +388,17 @@ a{
 .Mission_Section p{
 	font-size: 20px;
 }
-
-
-
-
-.Our_Quality_Section{
+.AboutUs_content_image2{
 	float: left;
-	background-color: white;
-	width: 98%;
-	height: auto;
-	text-align:center;
-	font-size:21px;
-	color: black;
-	padding:17px;
+	width: 48%;
+	height: 430px ;
+	
+	background: url(../Images/breakfast1.jpg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
-.Our_Quality_Section{
-	float: left;
-	background-color: white;
-	width: 98%;
-	height: auto;
-	text-align:center;
-	font-size:21px;
-	color: black;
-	padding:17px;
-}
+
 .Our_Team_Section{
 	float: left;
 	background-color: white;
