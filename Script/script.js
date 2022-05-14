@@ -16,7 +16,6 @@ function bgm {
   };
 }
 
-
 function Contactjs(){
   var name = document.getElementById("Inputname").value;
   var Email = document.getElementById("InputEmail").value;
