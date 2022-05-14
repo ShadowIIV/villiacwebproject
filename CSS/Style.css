@@ -374,6 +374,63 @@ a{
 	padding:17px;
 }
 
+.Mission_Section{
+	float: left;
+	background-color: white;
+	width: 98.5%;
+	height: auto;
+	text-align:center;
+	font-size:23px;
+	color: black;
+	padding:17px;
+}
+.Our_Quality_Section{
+	float: left;
+	background-color: white;
+	width: 98.5%;
+	height: auto;
+	text-align:center;
+	font-size:23px;
+	color: black;
+	padding:17px;
+}
+.Our_Team_Section{
+	float: left;
+	background-color: white;
+	width: 98.5%;
+	height: auto;
+	text-align:center;
+	font-size:23px;
+	color: black;
+	padding:17px;
+}
+.Our_Team_Section_Heading{
+	font-size: 49px;
+	color: black;
+}
+.Our_Team_Section_Heading span{
+	font-style: italic;
+	font-size: 39px;
+}
+.Profiles{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 80px;
+}
+.Profile{
+	flex-basis: 260px;
+}
+.Profile img{
+	width: 300px;
+	height: 260px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.Profile p{
+	text-align: justify;
+}
+
+
 
 /*This is for the Contact Page!!! */
 
