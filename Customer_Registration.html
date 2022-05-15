@@ -4,6 +4,7 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="CSS/Style.css" />
+	<script src="Script/customreg.js" type="text/javascript" /></script>
 	<title> Villiac | Customer Registration </title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,7 @@
 				<div class= "navigation">
 					<ul>
 						<li> <a href="index.html"> Home </a> </li>
-						<li> <a href="Products_and_Services.html"> Products & Services </a> </li>
+						<li> <a href="LOGIN.html"> Products & Services </a> </li>
 						<li> <a href="Customer_Registration.html"> Customer Registration </a> </li>
 						<li> <a href="About_Us.html"> About Us </a> </li>
 						<li> <a href="Contact_Us.html"> Contact Us </a> </li>
@@ -41,23 +42,23 @@
 		<div class= "Blank_Placeholdercustomer">
 		<fieldset>
 			<legend class="reglegend">Registration</legend>
-			<form name = "myform" method = "post" onsubmit='return form_validation()'>
+			<form name = "myform" method = "post" onsubmit='return formValidator()'>
 			<ul>
 			<li><label for="fnameid">First Name:</label></li>
-			<li><input type="text" name="fname" id="txtfnameid" size="15" /></li>
+			<li><input type="text" name="fnameid" id="fnameid" size="15" /></li>
 			<li><label for="lnameid">Last Name:</label></li>
-			<li><input type="text" name="lname" id="txtlnameid" size="15" /></li>
+			<li><input type="text" name="lnameid" id="lnameid" size="15" /></li>
 			<li><label for="gender">Gender</label></li>
 			<ol>
 			<li><input type="radio" name="gender" value="male"/>Male</input></li>
 			<li><input type="radio" name="gender" value="female"/>Female</input></li>
 			</ol>
 			<li><label for="emailid">Email:</label></li>
-			<li><input type="text" name="email" id="txtfemailid" size="12" /></li>
+			<li><input type="text" name="emailid" id="emailid" size="12" /></li>
 			<li><label for="addressid">Address:</label></li>
-			<li><input type="text" name="address" id="txtaddressid" size="12" /></li>
+			<li><input type="text" name="addressid" id="addressid" size="12" /></li>
 			<li><label for="contactid">Contact Number:</label></li>
-			<li><input type="text" name="contact" id="txtcontactid" size="12" /></li>
+			<li><input type="text" name="contactid" id="contactid" size="12" /></li>
 			<li><label for="branchid">Branches</label></li>
 			<li><select name="ddlbranch" size="1" multiple="yes">
 			<option value="N/A">Select Branch(es)</option>
@@ -87,7 +88,7 @@
 			<section class="footer_Nav">
 			<ul>
 				<li> <a href="index.html"> Home </a> </li>
-				<li> <a href="Products_and_Services.html"> Products & Services </a> </li>
+				<li> <a href="LOGIN.html"> Products & Services </a> </li>
 				<li> <a href="Customer_Registration.html"> Customer Registration </a> </li>
 				<li> <a href="About_Us.html"> About Us </a> </li>
 				<li> <a href="Contact_Us.html"> Contact Us </a> </li>
