@@ -340,6 +340,7 @@ a{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	font-size: 23px;
 }
 .About_Us_Section_box{
 	float:left;
@@ -484,7 +485,7 @@ img{
 	height: auto;
 	background-color: offwhite;
 }
-form{
+/* form{
 	background-color: white;
 	border: 2px solid black;
 	border-radius: 5px;
@@ -498,7 +499,7 @@ form ul li{
 }
 form h1{
 	text-align:center;
-}
+} */
 .input_field{
 	margin-left:80px;
 }
@@ -564,11 +565,16 @@ form h1{
 	background-size: cover;
 	color:  #e5e7e9;
 	font-size: 20px;
+	line-height: 2;
 }
 
 .covidinfo{
 }
 
+.covid19textcenter{
+	text-align: center;
+	font-size: 30px;
+}
 /*This is for the Faq Page!!! */
 
 .FAQ_Section{
@@ -626,8 +632,8 @@ form h1{
 }
 .Nav_logo img{
 	float: left;
-	width: 150px;
-	height: 200px;
+	width: 170px;
+	height: 195px;
 	margin-left: auto;
 	text-indent: -9999999999999999px;
 }
@@ -648,6 +654,12 @@ form h1{
 .footer_Nav ul li a{
 	text-decoration: none;
 	color: grey;	
+}
+
+.footer_Nav ul li a:hover{
+		background: #BFD1E5;
+		transition: 0.5s;
+		font-weight: 700;
 }
 
 .footer_section_3{
