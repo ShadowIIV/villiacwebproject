@@ -312,15 +312,17 @@ a{
 }
 
 .Blank_Placeholdercustomer{
-	font-family: 'Special Elite', cursive;
+/* 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
 	text-align: center;
 	padding: 26px;
-	line-height: 2.5;
+	line-height: 2.5; */
 }
 
-.Blank_Placeholdercustomer ul li{
+.Blank_Placeholdercustomer ol li{
 	list-style-type: none;
+	padding: 2px;
+	margin:auto;
 }
 
 .reglegend{
