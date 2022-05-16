@@ -326,7 +326,41 @@ a{
 .reglegend{
 	text-align: center;
 }
-
+form ul li{
+	list-style-type:none;
+	margin-bottom:50px;
+	line-height:20px;
+}
+form ul li label{
+	float:left;
+	clear:left;
+	width:100px;
+	text-align:right;
+	margin-right:10px;
+	font-size:14px;
+	font-family:Verdana, Arial, san-serif;
+}
+form ul li input, select, span{
+	float:left;
+	margin-bottom:5px;
+}
+form ul li textarea{
+	float:left;
+	width:350px;
+	height:150px;
+}
+[type="submit"]{
+	float:left;
+	height:30px;
+	width:100px;
+	margin:50px 50px 1000px 0px;
+}
+[type="reset"]{
+	float:left;
+	height:30px;
+	width:100px;
+	margin:50px 50px 700px 0px;
+}	
 
 /* This About Us Section */
 
