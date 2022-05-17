@@ -660,7 +660,7 @@ form h1{
 	margin-right: auto;
 }
 	
-.Login_Form, .Login_Page{
+.Login_Form, .Login_Page, .loginbutton{
 	list-style-type: none;
 	line-height: 3.5;
 	text-align: center;
